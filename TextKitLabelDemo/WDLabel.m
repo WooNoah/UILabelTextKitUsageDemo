@@ -11,8 +11,8 @@
 
 @interface WDLabel()
 
-//@property (strong, nonatomic) NSTextStorage *textStorage;
-//@property (strong, nonatomic) NSLayoutManager *layoutManager;
+@property (strong, nonatomic) NSTextStorage *textStorage;
+@property (strong, nonatomic) NSLayoutManager *layoutManager;
 
 @end
 
@@ -92,15 +92,24 @@
 //}
 //
 //
-//// Only override drawRect: if you perform custom drawing.
-//// An empty implementation adversely affects performance during animation.
-//- (void)drawRect:(CGRect)rect {
-//    // Drawing code
-//
-////    [self.layoutManager enumerateLineFragmentsForGlyphRange:<#(NSRange)#> usingBlock:^(CGRect rect, CGRect usedRect, NSTextContainer * _Nonnull textContainer, NSRange glyphRange, BOOL * _Nonnull stop) {
-////        <#code#>
-////    }]
-//
-//}
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
+
+//    [self.layoutManager enumerateLineFragmentsForGlyphRange:<#(NSRange)#> usingBlock:^(CGRect rect, CGRect usedRect, NSTextContainer * _Nonnull textContainer, NSRange glyphRange, BOOL * _Nonnull stop) {
+//        <#code#>
+//    }]
+    
+    for (NSUInteger i = 0; i < [self.layoutManager.textContainers count]; i++) {
+        NSTextContainer *container = self.layoutManager.textContainers[i];
+//        CGPoint origin = [self.textOrigins[i] CGPointValue];
+
+        NSRange glyphRange = [self.layoutManager glyphRangeForTextContainer:container];
+
+        [self.layoutManager drawGlyphsForGlyphRange:glyphRange atPoint:CGPointMake(0, 0)];
+    }
+
+}
 
 @end
