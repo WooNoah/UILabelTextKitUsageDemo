@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C019FFA23A61AAA00E1DF88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C019FF923A61AAA00E1DF88 /* AppDelegate.m */; };
+		9C019FFD23A61AAA00E1DF88 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C019FFC23A61AAA00E1DF88 /* SceneDelegate.m */; };
+		9C01A00023A61AAA00E1DF88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C019FFF23A61AAA00E1DF88 /* ViewController.m */; };
+		9C01A00323A61AAA00E1DF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C01A00123A61AAA00E1DF88 /* Main.storyboard */; };
+		9C01A00523A61AAB00E1DF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C01A00423A61AAB00E1DF88 /* Assets.xcassets */; };
+		9C01A00823A61AAB00E1DF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C01A00623A61AAB00E1DF88 /* LaunchScreen.storyboard */; };
+		9C01A00B23A61AAB00E1DF88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01A00A23A61AAB00E1DF88 /* main.m */; };
+		9C01A01323A61AD800E1DF88 /* WDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01A01223A61AD800E1DF88 /* WDLabel.m */; };
+		9C01A01623A6284400E1DF88 /* SoolyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01A01523A6284400E1DF88 /* SoolyLabel.m */; };
+		9C01A01923A6366E00E1DF88 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01A01823A6366E00E1DF88 /* SecViewController.m */; };
+		9C01A01C23A6523900E1DF88 /* NSString+EmojiExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C01A01B23A6523900E1DF88 /* NSString+EmojiExtension.m */; };
+		C8342AB45F72ADDD488EB0AF /* Pods_TextKitLabelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4D6E0D6F94564BF1EA5D3B /* Pods_TextKitLabelDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F8D402A5CD99B8691742B77 /* Pods-TextKitLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextKitLabelDemo.release.xcconfig"; path = "Target Support Files/Pods-TextKitLabelDemo/Pods-TextKitLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9C019FF523A61AAA00E1DF88 /* TextKitLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextKitLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C019FF823A61AAA00E1DF88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C019FF923A61AAA00E1DF88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C019FFB23A61AAA00E1DF88 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9C019FFC23A61AAA00E1DF88 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9C019FFE23A61AAA00E1DF88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C019FFF23A61AAA00E1DF88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C01A00223A61AAA00E1DF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C01A00423A61AAB00E1DF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C01A00723A61AAB00E1DF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C01A00923A61AAB00E1DF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C01A00A23A61AAB00E1DF88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C01A01123A61AD800E1DF88 /* WDLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDLabel.h; sourceTree = "<group>"; };
+		9C01A01223A61AD800E1DF88 /* WDLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDLabel.m; sourceTree = "<group>"; };
+		9C01A01423A6284400E1DF88 /* SoolyLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoolyLabel.h; sourceTree = "<group>"; };
+		9C01A01523A6284400E1DF88 /* SoolyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoolyLabel.m; sourceTree = "<group>"; };
+		9C01A01723A6366E00E1DF88 /* SecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		9C01A01823A6366E00E1DF88 /* SecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		9C01A01A23A6523900E1DF88 /* NSString+EmojiExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmojiExtension.h"; sourceTree = "<group>"; };
+		9C01A01B23A6523900E1DF88 /* NSString+EmojiExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmojiExtension.m"; sourceTree = "<group>"; };
+		F4E425F82A674399694621C2 /* Pods-TextKitLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextKitLabelDemo.debug.xcconfig"; path = "Target Support Files/Pods-TextKitLabelDemo/Pods-TextKitLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FF4D6E0D6F94564BF1EA5D3B /* Pods_TextKitLabelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextKitLabelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C019FF223A61AAA00E1DF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8342AB45F72ADDD488EB0AF /* Pods_TextKitLabelDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79DCE18B4364C6D1B4CAEAE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D6E0D6F94564BF1EA5D3B /* Pods_TextKitLabelDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C019FEC23A61AAA00E1DF88 = {
+			isa = PBXGroup;
+			children = (
+				9C019FF723A61AAA00E1DF88 /* TextKitLabelDemo */,
+				9C019FF623A61AAA00E1DF88 /* Products */,
+				EF06A41EC5A9E72044B3D82A /* Pods */,
+				79DCE18B4364C6D1B4CAEAE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C019FF623A61AAA00E1DF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C019FF523A61AAA00E1DF88 /* TextKitLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C019FF723A61AAA00E1DF88 /* TextKitLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9C019FF823A61AAA00E1DF88 /* AppDelegate.h */,
+				9C019FF923A61AAA00E1DF88 /* AppDelegate.m */,
+				9C019FFB23A61AAA00E1DF88 /* SceneDelegate.h */,
+				9C019FFC23A61AAA00E1DF88 /* SceneDelegate.m */,
+				9C019FFE23A61AAA00E1DF88 /* ViewController.h */,
+				9C019FFF23A61AAA00E1DF88 /* ViewController.m */,
+				9C01A01723A6366E00E1DF88 /* SecViewController.h */,
+				9C01A01823A6366E00E1DF88 /* SecViewController.m */,
+				9C01A01123A61AD800E1DF88 /* WDLabel.h */,
+				9C01A01223A61AD800E1DF88 /* WDLabel.m */,
+				9C01A01A23A6523900E1DF88 /* NSString+EmojiExtension.h */,
+				9C01A01B23A6523900E1DF88 /* NSString+EmojiExtension.m */,
+				9C01A01423A6284400E1DF88 /* SoolyLabel.h */,
+				9C01A01523A6284400E1DF88 /* SoolyLabel.m */,
+				9C01A00123A61AAA00E1DF88 /* Main.storyboard */,
+				9C01A00423A61AAB00E1DF88 /* Assets.xcassets */,
+				9C01A00623A61AAB00E1DF88 /* LaunchScreen.storyboard */,
+				9C01A00923A61AAB00E1DF88 /* Info.plist */,
+				9C01A00A23A61AAB00E1DF88 /* main.m */,
+			);
+			path = TextKitLabelDemo;
+			sourceTree = "<group>";
+		};
+		EF06A41EC5A9E72044B3D82A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4E425F82A674399694621C2 /* Pods-TextKitLabelDemo.debug.xcconfig */,
+				6F8D402A5CD99B8691742B77 /* Pods-TextKitLabelDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C019FF423A61AAA00E1DF88 /* TextKitLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C01A00E23A61AAB00E1DF88 /* Build configuration list for PBXNativeTarget "TextKitLabelDemo" */;
+			buildPhases = (
+				9A9BA4F71BA64F57EECB0A16 /* [CP] Check Pods Manifest.lock */,
+				9C019FF123A61AAA00E1DF88 /* Sources */,
+				9C019FF223A61AAA00E1DF88 /* Frameworks */,
+				9C019FF323A61AAA00E1DF88 /* Resources */,
+				4C035FBA1F58B582B93FC096 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextKitLabelDemo;
+			productName = TextKitLabelDemo;
+			productReference = 9C019FF523A61AAA00E1DF88 /* TextKitLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C019FED23A61AAA00E1DF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = No;
+				TargetAttributes = {
+					9C019FF423A61AAA00E1DF88 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C019FF023A61AAA00E1DF88 /* Build configuration list for PBXProject "TextKitLabelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C019FEC23A61AAA00E1DF88;
+			productRefGroup = 9C019FF623A61AAA00E1DF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C019FF423A61AAA00E1DF88 /* TextKitLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C019FF323A61AAA00E1DF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C01A00823A61AAB00E1DF88 /* LaunchScreen.storyboard in Resources */,
+				9C01A00523A61AAB00E1DF88 /* Assets.xcassets in Resources */,
+				9C01A00323A61AAA00E1DF88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C035FBA1F58B582B93FC096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextKitLabelDemo/Pods-TextKitLabelDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextKitLabelDemo/Pods-TextKitLabelDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextKitLabelDemo/Pods-TextKitLabelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A9BA4F71BA64F57EECB0A16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextKitLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C019FF123A61AAA00E1DF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C01A01C23A6523900E1DF88 /* NSString+EmojiExtension.m in Sources */,
+				9C01A01323A61AD800E1DF88 /* WDLabel.m in Sources */,
+				9C01A00023A61AAA00E1DF88 /* ViewController.m in Sources */,
+				9C019FFA23A61AAA00E1DF88 /* AppDelegate.m in Sources */,
+				9C01A01623A6284400E1DF88 /* SoolyLabel.m in Sources */,
+				9C01A00B23A61AAB00E1DF88 /* main.m in Sources */,
+				9C019FFD23A61AAA00E1DF88 /* SceneDelegate.m in Sources */,
+				9C01A01923A6366E00E1DF88 /* SecViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C01A00123A61AAA00E1DF88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C01A00223A61AAA00E1DF88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C01A00623A61AAB00E1DF88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C01A00723A61AAB00E1DF88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C01A00C23A61AAB00E1DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C01A00D23A61AAB00E1DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C01A00F23A61AAB00E1DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E425F82A674399694621C2 /* Pods-TextKitLabelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextKitLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.w.TextKitLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C01A01023A61AAB00E1DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8D402A5CD99B8691742B77 /* Pods-TextKitLabelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextKitLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.w.TextKitLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C019FF023A61AAA00E1DF88 /* Build configuration list for PBXProject "TextKitLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C01A00C23A61AAB00E1DF88 /* Debug */,
+				9C01A00D23A61AAB00E1DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C01A00E23A61AAB00E1DF88 /* Build configuration list for PBXNativeTarget "TextKitLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C01A00F23A61AAB00E1DF88 /* Debug */,
+				9C01A01023A61AAB00E1DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C019FED23A61AAA00E1DF88 /* Project object */;
+}
